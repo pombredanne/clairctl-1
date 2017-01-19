@@ -1,4 +1,4 @@
-package: github.com/jgsqware/clairctl
+ckage: github.com/jgsqware/clairctl
 import:
 - package: github.com/Sirupsen/logrus
   version: ^0.10.0
@@ -11,9 +11,11 @@ import:
 - package: github.com/docker/distribution
   version: fbb70dc3a14ca65cdac3aaf5e5122b03b42f6fbc
   subpackages:
-  - digest
   - manifest/schema1
   - registry/client
+- package: github.com/opencontainers/go-digest
+  subpackages:
+  - digest
 - package: github.com/docker/go-connections
   version: 988efe982fdecb46f01d53465878ff1f2ff411ce
   subpackages:

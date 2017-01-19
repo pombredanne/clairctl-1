@@ -32,11 +32,13 @@ imports:
   subpackages:
   - capnslog
   - timeutil
+- package: github.com/opencontainers/go-digest
+  subpackages:
+  - digest
 - name: github.com/docker/distribution
   version: fbb70dc3a14ca65cdac3aaf5e5122b03b42f6fbc
   subpackages:
   - context
-  - digest
   - manifest
   - manifest/manifestlist
   - manifest/schema1
