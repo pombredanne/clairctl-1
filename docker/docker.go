@@ -5,7 +5,7 @@ import (
 	"reflect"
 
 	"github.com/docker/distribution"
-	"github.com/docker/distribution/digest"
+	"github.com/opencontainers/go-digest"
 	"github.com/docker/distribution/manifest/schema1"
 	"github.com/docker/distribution/manifest/schema2"
 	"github.com/docker/docker/reference"

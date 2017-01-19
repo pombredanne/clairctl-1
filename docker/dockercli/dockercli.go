@@ -13,7 +13,7 @@ import (
 	"github.com/Sirupsen/logrus"
 	"github.com/artyom/untar"
 	"github.com/jgsqware/clairctl/config"
-	"github.com/docker/distribution/digest"
+	"github.com/opencontainers/go-digest"
 	"github.com/docker/distribution/manifest/schema1"
 	"github.com/docker/docker/reference"
 
