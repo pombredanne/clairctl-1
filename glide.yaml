@@ -1,4 +1,4 @@
-ckage: github.com/jgsqware/clairctl
+package: github.com/jgsqware/clairctl
 import:
 - package: github.com/Sirupsen/logrus
   version: ^0.10.0
@@ -30,6 +30,9 @@ import:
 - package: gopkg.in/yaml.v2
 - package: github.com/docker/go-units
   version: ^0.3.1
+- package: github.com/docker/cli
+  subpackages:
+  - config
 - package: github.com/docker/docker
   version: 62ff3e90835c3c572051afbbbac53303e57a5c89
   subpackages:

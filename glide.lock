@@ -35,6 +35,9 @@ imports:
 - package: github.com/opencontainers/go-digest
   subpackages:
   - digest
+- package: github.com/docker/cli
+  subpackages:
+  - config
 - name: github.com/docker/distribution
   version: fbb70dc3a14ca65cdac3aaf5e5122b03b42f6fbc
   subpackages:
